@@ -1,0 +1,19 @@
+# BEGIN_KITTY_THEME
+# Catppuccin-Mocha
+include current-theme.conf
+# END_KITTY_THEME
+#
+# Font Config
+font_family      JetBrains Mono
+bold_font        JetBrains Mono Bold
+bold_italic_font JetBrains Mono Bold Italic
+#
+# Color scheme
+background_opacity 0.8
+background_blur 10
+#
+#Bell Sound
+enable_audio_bell no
+command_on_bell pw-play /home/fox/.config/sounds/byep.mp3 
+# Config
+confirm_os_window_close 0
